@@ -1,4 +1,4 @@
-﻿# jenkis-task
+﻿# jenkins-task
 
 01) What is CI/CD ?
 CI/CD stands for Continuous Integration and Continuous Delivery/Deployment.
