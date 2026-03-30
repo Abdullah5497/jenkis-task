@@ -9,13 +9,13 @@ pipeline {
                     usernameVariable: 'GIT_USER',
                     passwordVariable: 'GIT_TOKEN'
                 )]) {
-                    sh 'chmod +x scripts/stage1.sh && ./scripts/stage1.sh'
+                    sh 'chmod +x stage1.sh && ./stage1.sh'
                 }
             }
         }
         stage('Stage 2 - Hello') {
             steps {
-                sh 'chmod +x scripts/stage2.sh && ./scripts/stage2.sh'
+                sh 'chmod +x stage2.sh && ./stage2.sh'
             }
         }
     }
